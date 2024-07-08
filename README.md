@@ -27,7 +27,7 @@ Clone the repository:
 
 
 ```
-git clone https://github.com/Luxadevi/Ollama-Companion.git
+https://github.com/treezy254/ollama-companion.git
 ```
 **Make the linux and mac install script executeable**
 ```
@@ -198,3 +198,5 @@ We are dedicated to the continuous enhancement of Ollama-Companion, with a focus
 ### License
 
 Licensed under the Apache License.
+
+Credits to Luxadevi: https://github.com/Luxadevi

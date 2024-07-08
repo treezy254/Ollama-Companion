@@ -1,0 +1,16 @@
+streamlit
+requests
+flask
+flask-cloudflared
+litellm
+huggingface_hub
+asyncio 
+Pyyaml
+httpx
+APScheduler
+cryptography
+pycloudflared
+sentencepiece
+transformers
+litellm[proxy]
+st-pages

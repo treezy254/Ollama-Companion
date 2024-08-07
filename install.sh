@@ -121,7 +121,7 @@ is_upgrade_needed() {
 clone_ollama_companion() {
     current_dir=$(basename "$PWD")
     if [ "$current_dir" != "Ollama-Companion" ]; then
-        git clone https://github.com/luxadevi/Ollama-Companion.git
+        git clone https://github.com/treezy254/ollama-companion.git
         cd Ollama-Companion
         echo "Cloned ollama-companion and changed directory to ollama-companion"
     else

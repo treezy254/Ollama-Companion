@@ -72,7 +72,7 @@ def test_litellm_proxy():
         result = subprocess.run(
             ["curl", "--location", "http://127.0.0.1:8000/chat/completions",
              "--header", "Content-Type: application/json",
-             "--data", '{"model": "gpt-3.5-turbo", "messages": [{"role": "user", "content": "what llm are you"}]}'],
+             "--data", '{"model": "phi3", "messages": [{"role": "user", "content": "what llm are you"}]}'],
             capture_output=True, text=True
         )
         return result.stdout if result.returncode == 0 else f"Error: {result.stderr}"

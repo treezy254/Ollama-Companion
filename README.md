@@ -11,8 +11,8 @@ This project sets up a proxy server using Ollama and LiteLLM to serve language m
 ## Installation
 
 1. Clone this repository:
-git clone https://github.com/yourusername/ollama-litellm-proxy.git
-cd ollama-litellm-proxy
+git clone https://github.com/treezy254/ollama-companion.git
+cd ollama-companion
 Copy
 2. Run the setup script:
 ./setup.sh
